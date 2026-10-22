@@ -1,3 +1,3 @@
 # Descrição do elemento generativo escolhido
 
-Na parte generativa do trabalho, decidi explorar a alteração gradual das cores dos blocos vermelho e azul. Para isso, utilizei a função random() para gerar diferentes tonalidades e o lerp() para tornar as transições mais suaves. Esta escolha permitiu dar mais vida à obra, através da mudança suave das cores, sem alterar as formas e a composição original do Modrian.
+Na parte generativa do trabalho, decidi explorar a alteração gradual da cor do bloco vermelho, azul e amarelo. Para isso, utilizei a função random() para gerar diferentes tonalidades e o lerp() para tornar as transições mais suaves. Esta escolha permitiu dar mais vida à obra, através da mudança suave das cores, sem alterar as formas e a composição original do Modrian.
