@@ -23,7 +23,7 @@ function draw() {
  azul = lerp(azul, destinoAzul, 0.04);
 
   if (abs(azul - destinoAzul) < 1) {
- destinoAzul = random(80, 140);
+ destinoAzul = random(70, 150);
   }
   fill(31, 29, azul);
   noStroke(0);rect(363, 502, 255, 255);
