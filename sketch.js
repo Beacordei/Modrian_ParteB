@@ -4,6 +4,9 @@
  let azul = 113;
  let destinoAzul = 80;
 
+ let amarelo = 220;
+ let destinoAmarelo = 190;
+
  function setup() {
   createCanvas(800, 784);
   background(245);
@@ -23,12 +26,18 @@ function draw() {
  azul = lerp(azul, destinoAzul, 0.04);
 
   if (abs(azul - destinoAzul) < 1) {
- destinoAzul = random(70, 150);
+  destinoAzul = random(70, 150);
   }
   fill(31, 29, azul);
   noStroke(0);rect(363, 502, 255, 255);
+
+  amarelo = lerp(amarelo, destinoAmarelo, 0.04);
+
+  if (abs(amarelo - destinoAmarelo) < 1) {
+  destinoAmarelo = random(130, 200);
+  }
     
-  fill(253, 220, 0);
+  fill(253, amarelo, 0);
   noStroke(0);rect(0, 502, 85, 280);
 
   stroke(0);
